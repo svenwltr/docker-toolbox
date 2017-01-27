@@ -6,6 +6,7 @@ RUN set -ex \
         nmap-ncat \
         procps-ng \
         screent \
+        tar \
  && dnf clean all \
  && rm -rf /var/cache/yum/* \
  && cd /usr/local/bin \
