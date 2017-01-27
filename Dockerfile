@@ -2,8 +2,9 @@ FROM fedora:25
 
 RUN set -ex \
  && dnf -y install \
-		bind-utils \
-		nmap-ncat \
+        bind-utils \
+        nmap-ncat \
+        procps-ng \
  && dnf clean all \
  && rm -rf /var/cache/yum/* \
  && cd /usr/local/bin \

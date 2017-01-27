@@ -7,6 +7,7 @@ A basic Fedora installation with tools for daily use.
 * kubectl
 * netcat
 * dig
+* watch
 
 ## Usage
 
