@@ -8,6 +8,7 @@ A basic Fedora installation with tools for daily use.
 * netcat
 * dig
 * watch
+* screen
 
 ## Usage
 

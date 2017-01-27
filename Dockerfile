@@ -5,6 +5,7 @@ RUN set -ex \
         bind-utils \
         nmap-ncat \
         procps-ng \
+        screent \
  && dnf clean all \
  && rm -rf /var/cache/yum/* \
  && cd /usr/local/bin \
