@@ -3,6 +3,7 @@ FROM fedora:25
 RUN set -ex \
  && dnf -y install \
         bind-utils \
+        mtr \
         nmap-ncat \
         procps-ng \
         screen \

@@ -4,11 +4,12 @@ A basic Fedora installation with tools for daily use.
 
 ## Contains
 
-* kubectl
-* netcat
 * dig
-* watch
+* kubectl
+* mtr
+* netcat
 * screen
+* watch
 
 ## Usage
 
